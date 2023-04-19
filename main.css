@@ -72,3 +72,16 @@ p{
     margin-right:auto;
     padding-bottom:2%;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header, #about, #projectlist {
+    max-width: 600px;
+    text-align: center;
+  }
+  
